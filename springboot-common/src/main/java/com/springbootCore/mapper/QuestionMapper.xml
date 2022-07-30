@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springbootCore.mapper.QuestionMapper">
+    <resultMap id="BaseResultMap" type="com.springbootCore.pojo.Question">
+        <id column="question_id" jdbcType="BIGINT" property="questionId"/>
+        <result column="question_queNo" jdbcType="VARCHAR" property="questionQueno"/>
+        <result column="question_queContent" jdbcType="VARCHAR" property="questionQuecontent"/>
+        <result column="question_correctAnswer" jdbcType="VARCHAR" property="questionCorrectanswer"/>
+        <result column="question_answerContent" jdbcType="VARCHAR" property="questionAnswercontent"/>
+        <result column="subject_no" jdbcType="VARCHAR" property="subjectNo"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    question_id, question_queNo, question_queContent, question_correctAnswer, question_answerContent
+  </sql>
+    <select id="selectByWhere" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from question
+        <where>
+            <if test="subjectNo">
+                and subject_no = #{subjectNo}
+            </if>
+            <if test="questionQueno">
+                and question_queNo = #{questionQueno}
+            </if>
+        </where>
+    </select>
+    <select id="selectByname" resultMap="BaseResultMap">
+        select
+        question_queContent, question_correctAnswer, question_answerContent
+        from question
+        <where>
+            <choose>
+                <when test="subjectNo">
+                    <if test="subjectNo">
+                        and subject_no = #{subjectNo}
+                    </if>
+                    <if test="queContent">
+                        and question_queContent like concat('%',#{queContent},'%')
+                    </if>
+                </when>
+                <otherwise>
+                    and 0=1
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+
+    <select id="selectByqueContent" resultMap="BaseResultMap">
+        select
+        question_queNo,question_queContent, question_correctAnswer, question_answerContent
+        from question
+        <where>
+            <if test="queNo">
+                and question_queNo = #{queNo}
+            </if>
+        </where>
+    </select>
+
+    <insert id="insertList" keyColumn="question_id" keyProperty="questionId" parameterType="com.springbootCore.pojo.Question"
+            useGeneratedKeys="true">
+        insert into question (question_queNo, question_queContent,
+        question_correctAnswer, question_answerContent,subject_no,createtime)
+        values
+        <foreach collection="list" separator="," item="item" index="index">
+            (#{item.questionQueno,jdbcType=VARCHAR}, #{item.questionQuecontent,jdbcType=VARCHAR},
+            #{item.questionCorrectanswer,jdbcType=VARCHAR}, #{item.questionAnswercontent,jdbcType=VARCHAR},
+            #{item.subjectNo,jdbcType=VARCHAR},NOW())
+        </foreach>
+    </insert>
+    <update id="updateList" parameterType="com.springbootCore.pojo.Question">
+        update question
+        <set>
+            question_answerContent=
+            <foreach collection="list" item="item" index="index" separator=" " open="case question_queNo" close="end">
+                when #{item.questionQueno} then #{item.questionAnswercontent}
+            </foreach>
+            <where>
+                question_queNo in
+                <foreach collection="list" index="index" item="item" separator="," open="(" close=")">
+                    #{item.questionQueno}
+                </foreach>
+            </where>
+        </set>
+    </update>
+</mapper>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>工具</title>
+    <link rel="stylesheet" href="styles/iview.css">
+    <script src="js/vue.min.js"></script>
+    <script src="js/iview.min.js"></script>
+    <script src="js/axios.min.js"></script>
+</head>
+
+<body>
+<div id='app'>
+    <br>
+    <Row :gutter="22">
+        <i-col span="22">
+            <i-input v-model="value" placeholder="请填入作业内容" clearable style="width: 100%" /></i-col>
+        <i-col span="2">
+            <i-button type="primary" shape="circle" icon="ios-search" @click="onsearch"></i-button></i-col>
+    </Row>
+    <br>
+    <Row :gutter="22">
+        <i-col span="22">
+            <i-Input v-model="value1" placeholder="请填入作业答案" clearable style="width: 100%" /></i-col>
+        <i-col span="2">
+            <i-button type="primary" @click="onadd">新增答案</i-button></i-col>
+    </Row>
+    <br>
+    <Row :gutter="22">
+        <i-col span="5">
+            <i-Select v-model="selectvalue" placeholder="请选择科目">
+                <i-Option v-for="item in subList" :value="item.subjectNo" :key="item.subjectNo">{{ item.subjectName }}</i-Option>
+            </i-Select>
+        </i-col>
+        <i-col span="17">
+            <i-Input v-model="value3" @keyup.enter.native="onSearchList" placeholder="请输入题目内容" clearable style="width: 100%" /></i-col>
+        <i-col span="2">
+            <i-button type="primary" @click="onSearchList">搜索答案</i-button></i-col>
+    </Row>
+    <br>
+    <Row>
+        <i-table border :columns="columns1" :data="data1">
+            <template slot-scope="{ row }" slot="questionQuecontent">
+                <p v-html="row.questionQuecontent"></p>
+            </template>
+            <template slot-scope="{ row }" slot="questionAnswercontent">
+                <p v-html="row.questionAnswercontent"></p>
+            </template>
+        </i-table>
+    </Row>
+</div>
+</body>
+
+</html>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            value: "",
+            value1: "",
+            value3:"",
+            selectvalue:"",
+            subList:[],
+            columns1: [
+                {
+                    title: "序号",
+                    width: 70,
+                    key: "seqNo"
+                },
+                {
+                    title: "题目内容",
+                    slot: "questionQuecontent"
+                },
+                {
+                    title: "答案",
+                    width: 100,
+                    key: "questionCorrectanswer"
+                },
+                {
+                    title: "答案内容",
+                    slot: "questionAnswercontent"
+                }
+            ],
+            data1: []
+        },
+        created(){
+            axios({
+                url: '/api/wljy/getsubject',
+                method: 'get',
+                timeout: 5000,
+            }).then(res => {
+                this.subList = res.data;
+            });
+        },
+        methods: {
+            onSearchList() {
+                const params = {
+                    sno:this.selectvalue,
+                    data:this.value3
+                };
+                axios({
+                    url: '/api/wljy/getSearch',
+                    method: 'get',
+                    params: params,
+                    timeout: 5000,
+                }).then(res => {
+                    console.log(res);
+                    this.data1 = res.data;
+                });
+            },
+            onsearch() {
+                //this.$Message.error('已复制');
+                const params = new URLSearchParams();
+                params.append("data", this.value);
+                axios({
+                    url: '/api/wljy/getAnswer',
+                    method: 'post',
+                    data: params,
+                    timeout: 5000,
+                    headers: {'Content-Type':'application/x-www-form-urlencoded'},
+                }).then(res => {
+                    console.log(res);
+                    this.data1 = res.data;
+                });
+            },
+            onadd() {
+                const params = new URLSearchParams();
+                params.append("data", this.value1);
+                axios({
+                    url: '/api/wljy/addQues',
+                    method: 'post',
+                    data: params,
+                    timeout: 5000,
+                    headers: {'Content-Type':'application/x-www-form-urlencoded'},
+                }).then(res => {
+                    //console.log(res);
+                    //this.$Message.success(res.data?"成功":"失败");
+                    if (res.data) {
+                        this.$Message.success({
+                            background: true,
+                            content: "太棒啦，保存数据成功"
+                        });
+                    } else {
+                        this.$Message.error({
+                            background: true,
+                            content: "很遗憾，保存数据失败"
+                        });
+                    }
+                });
+            }
+        }
+    });
+</script>

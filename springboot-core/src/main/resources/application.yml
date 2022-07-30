@@ -1,0 +1,54 @@
+server:
+  port: 8081
+
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 1973271032@qq.com
+    password: ybfsyaziisaobehd
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            ennable: true
+            required: true
+
+  datasource:
+    druid:
+      url: jdbc:mysql://localhost:3306/wljy?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: 123456
+  redis:
+    #数据库索引
+    database: ${REDIS_DB:5}
+    host: ${REDIS_HOST:127.0.0.1}
+    port: ${REDIS_PORT:6379}
+    password: ${REDIS_PWD:a123456}
+    #连接超时时间
+    timeout: 5000
+#mybatis-plus
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+    auto-mapping-behavior: full
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+    mapper-locations: classpath*:mapper/*Mapper.xml
+    global-config:
+      # 逻辑删除配置
+      db-config:
+        # 删除前
+        logic-not-delete-value: 1
+        # 删除后
+        logic-delete-value: 0
+
+#日志
+logging:
+  config: classpath:logback.xml
+  file:
+    name: log/sys.log
+  level:
+    root: info
+    com.springbootmall.mapper: debug
+
+debug: true

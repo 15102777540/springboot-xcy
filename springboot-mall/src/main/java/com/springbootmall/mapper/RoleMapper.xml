@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springbootmall.mapper.RoleMapper">
+    <resultMap id="ResultMap" type="com.springbootmall.pojo.dto.Role">
+        <id column="role_id" jdbcType="BIGINT" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="level" jdbcType="INTEGER" property="level"/>
+        <result column="description" jdbcType="VARCHAR" property="description"/>
+        <result column="data_scope" jdbcType="VARCHAR" property="dataScope"/>
+        <result column="create_by" jdbcType="VARCHAR" property="createBy"/>
+        <result column="update_by" jdbcType="VARCHAR" property="updateBy"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <collection property="users" ofType="com.springbootmall.pojo.dto.User">
+            <id column="user_id" jdbcType="BIGINT" property="id"/>
+            <result column="username" jdbcType="VARCHAR" property="username"/>
+            <result column="nick_name" jdbcType="VARCHAR" property="nickName"/>
+            <result column="gender" jdbcType="VARCHAR" property="gender"/>
+            <result column="phone" jdbcType="VARCHAR" property="phone"/>
+            <result column="email" jdbcType="VARCHAR" property="email"/>
+            <result column="avatar_name" jdbcType="VARCHAR" property="avatarName"/>
+            <result column="avatar_path" jdbcType="VARCHAR" property="avatarPath"/>
+            <result column="password" jdbcType="VARCHAR" property="password"/>
+            <result column="is_admin" jdbcType="BIT" property="isAdmin"/>
+            <result column="enabled" jdbcType="BIGINT" property="enabled"/>
+        </collection>
+        <collection property="menus" ofType="com.springbootmall.pojo.dto.Menu">
+            <id column="menu_id" jdbcType="BIGINT" property="id"/>
+            <result column="pid" jdbcType="BIGINT" property="pid"/>
+            <result column="sub_count" jdbcType="INTEGER" property="subCount"/>
+            <result column="type" jdbcType="INTEGER" property="type"/>
+            <result column="title" jdbcType="VARCHAR" property="title"/>
+            <result column="name" jdbcType="VARCHAR" property="name"/>
+            <result column="component" jdbcType="VARCHAR" property="component"/>
+            <result column="menu_sort" jdbcType="INTEGER" property="menuSort"/>
+            <result column="icon" jdbcType="VARCHAR" property="icon"/>
+            <result column="path" jdbcType="VARCHAR" property="path"/>
+            <result column="i_frame" jdbcType="BIT" property="iFrame"/>
+            <result column="cache" jdbcType="BIT" property="cache"/>
+            <result column="hidden" jdbcType="BIT" property="hidden"/>
+            <result column="permission" jdbcType="VARCHAR" property="permission"/>
+        </collection>
+        <collection property="depts" ofType="com.springbootmall.pojo.dto.Dept">
+            <id column="dept_id" jdbcType="BIGINT" property="id"/>
+            <result column="pid" jdbcType="BIGINT" property="pid"/>
+            <result column="sub_count" jdbcType="INTEGER" property="subCount"/>
+            <result column="name" jdbcType="VARCHAR" property="name"/>
+            <result column="dept_sort" jdbcType="INTEGER" property="deptSort"/>
+            <result column="enabled" jdbcType="BIT" property="enabled"/>
+        </collection>
+    </resultMap>
+
+    <select id="findByUsersId" resultMap="ResultMap">
+        SELECT * FROM sys_role r
+        LEFT JOIN sys_users_roles ur ON r.role_id = ur.role_id
+        LEFT JOIN sys_user u ON ur.user_id = u.user_id
+        LEFT JOIN sys_roles_menus rm on r.role_id=rm.role_id
+        LEFT JOIN sys_menu m ON rm.menu_id=m.menu_id
+        LEFT JOIN sys_roles_depts rd ON r.role_id=rd.role_id
+        LEFT JOIN sys_dept d ON rd.dept_id = d.dept_id
+        WHERE ur.user_id=#{id}
+    </select>
+</mapper>

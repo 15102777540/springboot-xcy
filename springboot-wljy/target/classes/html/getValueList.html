@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>工具</title>
+    <link rel="stylesheet" href="styles/iview.css">
+    <script src="js/vue.min.js"></script>
+    <script src="js/iview.min.js"></script>
+    <script src="js/axios.min.js"></script>
+</head>
+
+<body>
+<div id='app'>
+    <br>
+    <Row :gutter="22">
+        <i-col span="11">
+            <i-Input v-model="value3" @keyup.enter.native="onsearch" placeholder="请输入id" clearable style="width: 100%" /></i-col>
+        <i-col span="11">
+            <i-Select v-model="selectvalue" placeholder="请选择">
+                <i-Option v-for="item in subList" :value="item" :key="item">{{ item }}</i-Option>
+            </i-Select>
+        </i-col>
+        <i-col span="2">
+            <i-button type="primary" @click="onSearchList">搜索答案</i-button></i-col>
+    </Row>
+    <br>
+    <ROW v-for="item in data1">
+        <div style="margin-left: 100px;">{{item}}</div>
+    </ROW>
+</div>
+</body>
+
+</html>
+<script>
+    var vm = new Vue({
+        el: "#app",
+        data: {
+            value3:"",
+            selectvalue:"",
+            subList:[],
+            data1: []
+        },
+        methods: {
+            onSearchList() {
+                const params = {
+                    keya:this.selectvalue
+                };
+                axios({
+                    url: '/api/wljy/getValueList',
+                    method: 'get',
+                    params: params,
+                    timeout: 5000,
+                }).then(res => {
+                    console.log(res);
+                    this.data1 = res.data;
+                });
+            },
+            onsearch() {
+                //this.$Message.error('已复制');
+                const params = new URLSearchParams();
+                params.append("k", this.value3);
+                axios({
+                    url: '/api/wljy/getValuekey',
+                    method: 'post',
+                    data: params,
+                    timeout: 5000,
+                    headers: {'Content-Type':'application/x-www-form-urlencoded'},
+                }).then(res => {
+                    console.log(res);
+                    this.subList = res.data;
+                });
+            },
+        }
+    });
+</script>

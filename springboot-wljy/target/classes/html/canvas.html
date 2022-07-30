@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <canvas id="canvasdemo" width="500" height="500"></canvas>
+  </body>
+</html>
+<script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  $(function () {
+    draw();
+  });
+  function draw() {
+    var canvas = document.getElementById("canvasdemo");
+    var ctx = canvas.getContext("2d");
+
+    ctx.beginPath();
+    ctx.moveTo(170, 325);
+    ctx.bezierCurveTo(38, 317, 81, 224, 141, 229);
+    ctx.bezierCurveTo(141, 130, 190, 100, 191, 229);
+    ctx.bezierCurveTo(191, 130, 230, 100, 241, 229);
+    ctx.bezierCurveTo(322, 234, 315, 347, 170, 325);
+    ctx.fillStyle = "#61d40c";
+    ctx.fill();
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(156, 229);
+    ctx.bezierCurveTo(150, 210, 182, 210, 176, 229); 
+    ctx.fillStyle = "black";
+    ctx.fill();
+
+    ctx.beginPath();
+    ctx.moveTo(203, 229);
+    ctx.bezierCurveTo(200, 210, 229, 210, 225, 229); 
+    ctx.fillStyle = "black";
+    ctx.fill();
+
+
+    ctx.fillStyle = "blue";
+    // start point
+    //ctx.fillRect(192, 216, 10, 10);
+    // end point
+    //ctx.fillRect(209, 217, 10, 10);
+
+    ctx.fillStyle = "red";
+    // control point one
+    //ctx.fillRect(191, 170, 10, 10);
+    // control point two
+    //ctx.fillRect(210, 180, 10, 10);
+  }
+</script>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springbootmall.mapper.MenuMapper">
+    <resultMap id="BaseResultMap" type="com.springbootmall.pojo.dto.Menu">
+        <id column="menu_id" jdbcType="BIGINT" property="id"/>
+        <result column="pid" jdbcType="BIGINT" property="pid"/>
+        <result column="sub_count" jdbcType="INTEGER" property="subCount"/>
+        <result column="type" jdbcType="INTEGER" property="type"/>
+        <result column="title" jdbcType="VARCHAR" property="title"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="component" jdbcType="VARCHAR" property="component"/>
+        <result column="menu_sort" jdbcType="INTEGER" property="menuSort"/>
+        <result column="icon" jdbcType="VARCHAR" property="icon"/>
+        <result column="path" jdbcType="VARCHAR" property="path"/>
+        <result column="i_frame" jdbcType="BIT" property="iFrame"/>
+        <result column="cache" jdbcType="BIT" property="cache"/>
+        <result column="hidden" jdbcType="BIT" property="hidden"/>
+        <result column="permission" jdbcType="VARCHAR" property="permission"/>
+        <result column="create_by" jdbcType="VARCHAR" property="createBy"/>
+        <result column="update_by" jdbcType="VARCHAR" property="updateBy"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <collection property="roles" ofType="com.springbootmall.pojo.dto.Role">
+            <id column="role_id" jdbcType="BIGINT" property="id"/>
+            <result column="name" jdbcType="VARCHAR" property="name"/>
+            <result column="level" jdbcType="INTEGER" property="level"/>
+            <result column="description" jdbcType="VARCHAR" property="description"/>
+            <result column="data_scope" jdbcType="VARCHAR" property="dataScope"/>
+        </collection>
+    </resultMap>
+    <select id="findByRoleIdsAndTypeNot" resultMap="BaseResultMap">
+        select * from sys_menu m
+        left join sys_roles_menus rm on m.menu_id=rm.menu_id
+        left join sys_role r on rm.role_id=r.role_id
+        where 1=1
+        <if test="roleIds != null and roleIds.size() > 0">
+            and rm.role_id in
+            <foreach collection="roleIds" item="item" open="(" close=")" separator=",">
+                #{item}
+            </foreach>
+        </if>
+        and m.type <![CDATA[ <> ]]> #{type}
+        order by m.menu_sort
+    </select>
+</mapper>

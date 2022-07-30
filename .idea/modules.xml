@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springboot-common/springboot-common.iml" filepath="$PROJECT_DIR$/springboot-common/springboot-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-core/springboot-core.iml" filepath="$PROJECT_DIR$/springboot-core/springboot-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mall/springboot-mall.iml" filepath="$PROJECT_DIR$/springboot-mall/springboot-mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-wljy/springboot-wljy.iml" filepath="$PROJECT_DIR$/springboot-wljy/springboot-wljy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springboot-xcy.iml" filepath="$PROJECT_DIR$/.idea/springboot-xcy.iml" />
+    </modules>
+  </component>
+</project>

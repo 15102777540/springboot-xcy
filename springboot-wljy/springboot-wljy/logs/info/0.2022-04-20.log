@@ -1,0 +1,425 @@
+09:21:51.277 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+09:21:51.289 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+09:21:51.290 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:21:51.520 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+09:21:51.727 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@24855019, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3abd581e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4d4d8fcf, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@610db97e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f0628de, org.springframework.test.context.event.EventPublishingTestExecutionListener@3fabf088]
+09:21:52.307 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 33536 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+09:21:52.309 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+09:21:53.294 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:21:53.298 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+09:21:53.330 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+09:21:53.799 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$48af5ac9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:21:54.322 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:21:54.550 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:21:57.504 [main] INFO  com.wljy.config.RedisConfig - åˆå§‹åŒ– -> [Redis CacheErrorHandler]
+09:21:59.013 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 7.212 seconds (JVM running for 9.816)
+09:22:04.246 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+09:22:04.256 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+09:22:44.800 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+09:22:44.813 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+09:22:44.815 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:22:45.024 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+09:22:45.199 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c321bdb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@24855019, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3abd581e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d4d8fcf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@610db97e, org.springframework.test.context.event.EventPublishingTestExecutionListener@6f0628de]
+09:22:45.636 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 54056 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+09:22:45.637 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+09:22:46.281 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:22:46.284 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+09:22:46.308 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+09:22:46.648 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$d64a51ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:22:47.007 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:22:47.169 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:22:49.186 [main] INFO  com.wljy.config.RedisConfig - åˆå§‹åŒ– -> [Redis CacheErrorHandler]
+09:22:50.426 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 5.176 seconds (JVM running for 7.127)
+09:22:54.489 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+09:22:54.497 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+09:26:12.254 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+09:26:12.262 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+09:26:12.263 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:26:12.431 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+09:26:12.585 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+09:26:13.084 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 6044 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+09:26:13.086 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+09:26:13.875 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+09:26:13.878 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+09:26:13.910 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+09:26:14.348 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:26:14.817 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+09:26:15.038 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:26:18.228 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+09:26:19.431 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 6.798 seconds (JVM running for 8.502)
+09:26:24.742 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+09:26:24.750 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:10:17.774 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+10:10:17.782 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:10:17.783 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:10:17.957 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+10:10:18.127 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@24855019, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3abd581e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4d4d8fcf, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@610db97e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f0628de, org.springframework.test.context.event.EventPublishingTestExecutionListener@3fabf088]
+10:10:18.569 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 53976 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+10:10:18.571 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+10:10:19.376 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:10:19.379 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+10:10:19.415 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+10:10:19.836 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$272a63c1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:10:20.310 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+10:10:20.514 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:10:22.672 [main] INFO  com.wljy.config.RedisConfig - åˆå§‹åŒ– -> [Redis CacheErrorHandler]
+10:10:23.911 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 5.732 seconds (JVM running for 7.472)
+10:10:27.404 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+10:10:27.411 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:45:28.935 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+10:45:28.944 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:45:28.945 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:45:29.121 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+10:45:29.271 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+10:45:29.787 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 48788 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+10:45:29.789 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+10:45:30.603 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:45:30.607 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+10:45:30.644 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16 ms. Found 0 Redis repository interfaces.
+10:45:31.096 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:45:31.604 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+10:45:31.824 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:45:34.973 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+10:45:36.313 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 6.992 seconds (JVM running for 8.797)
+10:45:42.393 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+10:45:42.403 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+10:50:33.049 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+10:50:33.054 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+10:50:33.055 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+10:50:33.163 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+10:50:33.258 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+10:50:33.572 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 44268 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+10:50:33.574 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+10:50:34.168 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+10:50:34.170 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+10:50:34.192 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+10:50:34.465 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+10:50:34.787 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+10:50:34.949 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+10:50:37.021 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+10:50:37.985 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 4.697 seconds (JVM running for 5.802)
+10:50:41.671 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+10:50:41.683 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+11:01:44.350 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+11:01:44.357 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:01:44.358 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:01:44.522 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+11:01:44.704 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@24855019, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3abd581e, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4d4d8fcf, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@610db97e, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6f0628de, org.springframework.test.context.event.EventPublishingTestExecutionListener@3fabf088]
+11:01:45.159 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 53368 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+11:01:45.161 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+11:01:45.745 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:01:45.748 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+11:01:45.771 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+11:01:46.099 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$2dfef8f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:01:46.482 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:01:46.644 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:01:48.640 [main] INFO  com.wljy.config.RedisConfig - åˆå§‹åŒ– -> [Redis CacheErrorHandler]
+11:01:49.589 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 4.832 seconds (JVM running for 6.569)
+11:01:52.932 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+11:01:52.938 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+11:02:59.676 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+11:02:59.681 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:02:59.681 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:02:59.800 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+11:02:59.902 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+11:03:00.237 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 54124 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+11:03:00.239 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+11:03:00.891 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:03:00.894 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+11:03:00.915 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+11:03:01.221 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:03:01.559 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:03:01.743 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:03:04.025 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+11:03:04.884 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 4.951 seconds (JVM running for 6.109)
+11:03:08.905 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+11:03:08.912 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+11:51:32.111 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+11:51:32.118 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+11:51:32.119 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+11:51:32.238 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+11:51:32.377 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+11:51:32.752 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 35724 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+11:51:32.753 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+11:51:33.397 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+11:51:33.400 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+11:51:33.424 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+11:51:33.799 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+11:51:34.230 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+11:51:34.431 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+11:51:36.704 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+11:51:37.635 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 5.213 seconds (JVM running for 6.452)
+11:51:41.475 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+11:51:41.481 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+12:01:59.615 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+12:01:59.620 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:01:59.621 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:01:59.730 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+12:01:59.833 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+12:02:00.161 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 35620 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+12:02:00.162 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+12:02:00.763 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:02:00.766 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+12:02:00.787 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+12:02:01.085 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:02:01.398 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:02:01.559 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:02:03.694 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+12:02:04.465 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 4.593 seconds (JVM running for 5.757)
+12:02:08.568 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+12:02:08.573 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+12:40:32.327 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+12:40:32.335 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+12:40:32.337 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:40:32.502 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+12:40:32.677 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3c321bdb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@24855019, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3abd581e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4d4d8fcf, org.springframework.test.context.support.DirtiesContextTestExecutionListener@610db97e, org.springframework.test.context.event.EventPublishingTestExecutionListener@6f0628de]
+12:40:33.188 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 56184 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+12:40:33.190 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+12:40:33.979 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+12:40:33.982 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+12:40:34.010 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+12:40:34.395 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$35b10b41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+12:40:34.865 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+12:40:35.091 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+12:40:37.290 [main] INFO  com.wljy.config.RedisConfig - åˆå§‹åŒ– -> [Redis CacheErrorHandler]
+12:40:38.408 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 5.67 seconds (JVM running for 7.575)
+12:40:41.972 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+12:40:41.979 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+13:01:23.809 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+13:01:23.816 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:01:23.817 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:01:23.993 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+13:01:24.172 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+13:01:24.689 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 47284 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+13:01:24.691 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+13:01:25.611 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:01:25.615 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:01:25.647 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+13:01:26.073 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:01:26.548 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+13:01:26.765 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+13:01:29.957 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+13:01:31.352 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 7.127 seconds (JVM running for 8.983)
+13:01:35.076 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+13:01:35.097 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+13:01:47.420 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+13:01:47.425 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:01:47.426 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:01:47.538 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+13:01:47.634 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+13:01:47.942 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 37080 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+13:01:47.944 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+13:01:48.548 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:01:48.551 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:01:48.572 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+13:01:48.865 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:01:49.168 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+13:01:49.332 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+13:01:51.258 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+13:01:52.037 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 4.372 seconds (JVM running for 5.482)
+13:01:55.509 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+13:01:55.514 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+13:07:29.726 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+13:07:29.732 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:07:29.733 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:07:29.842 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+13:07:29.937 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+13:07:30.272 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 37796 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+13:07:30.273 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+13:07:30.875 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:07:30.878 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:07:30.905 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+13:07:31.221 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:07:31.531 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+13:07:31.682 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+13:07:33.737 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+13:07:34.752 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 4.783 seconds (JVM running for 5.904)
+13:07:38.435 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+13:07:38.443 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+13:19:01.469 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+13:19:01.476 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:19:01.478 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:19:01.640 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+13:19:01.789 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+13:19:02.285 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 40580 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+13:19:02.287 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+13:19:03.122 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:19:03.127 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:19:03.166 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+13:19:03.615 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$92c89589] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:19:04.099 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+13:19:04.318 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+13:19:07.457 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+13:19:08.678 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 6.841 seconds (JVM running for 8.632)
+13:19:14.393 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+13:19:14.403 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+13:41:15.488 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+13:41:15.494 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:41:15.495 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:41:15.603 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+13:41:15.728 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+13:41:16.091 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 16396 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+13:41:16.093 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+13:41:16.760 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:41:16.763 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:41:16.789 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+13:41:17.105 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:41:17.445 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+13:41:17.643 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+13:41:19.737 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+13:41:20.584 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 4.815 seconds (JVM running for 5.99)
+13:41:24.197 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+13:41:24.210 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+13:50:02.854 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+13:50:02.862 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:50:02.863 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:50:03.029 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+13:50:03.186 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+13:50:03.757 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 55080 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+13:50:03.759 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+13:50:04.723 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+13:50:04.728 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+13:50:04.764 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 17 ms. Found 0 Redis repository interfaces.
+13:50:05.273 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:50:05.818 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+13:50:06.067 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+13:50:09.328 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+13:50:10.564 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 7.317 seconds (JVM running for 9.205)
+13:50:15.984 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+13:50:15.994 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+14:37:33.237 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+14:37:33.243 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:37:33.244 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:37:33.362 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+14:37:33.503 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+14:37:33.875 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 54396 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+14:37:33.877 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+14:37:34.519 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:37:34.523 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:37:34.547 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+14:37:34.878 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:37:35.244 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+14:37:35.444 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:37:37.471 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+14:37:38.342 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 4.798 seconds (JVM running for 6.022)
+14:37:41.920 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+14:37:41.933 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+14:44:31.044 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+14:44:31.051 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+14:44:31.051 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:44:31.173 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+14:44:31.280 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+14:44:31.600 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 45356 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+14:44:31.602 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+14:44:32.245 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:44:32.248 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:44:32.274 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+14:44:32.549 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:44:32.860 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+14:44:33.025 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:44:35.115 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+14:44:36.067 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 4.755 seconds (JVM running for 6.083)
+14:44:39.713 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+14:44:39.728 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+15:56:38.637 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+15:56:38.644 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:56:38.645 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:56:38.764 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+15:56:38.888 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+15:56:39.269 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 18228 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+15:56:39.271 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+15:56:39.960 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+15:56:39.965 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:56:39.993 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+15:56:40.335 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:56:40.711 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+15:56:40.920 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:56:43.077 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+15:56:43.938 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 5.011 seconds (JVM running for 6.261)
+15:56:47.835 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+15:56:47.842 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+16:07:59.576 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+16:07:59.582 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:07:59.583 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:07:59.703 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+16:07:59.799 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+16:08:00.129 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 44012 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+16:08:00.130 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+16:08:00.752 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:08:00.754 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:08:00.778 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+16:08:01.071 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:08:01.408 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+16:08:01.563 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+16:08:03.643 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+16:08:04.425 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 4.595 seconds (JVM running for 5.751)
+16:08:08.734 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+16:08:08.741 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+16:09:58.594 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+16:09:58.602 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:09:58.603 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:09:58.739 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+16:09:58.854 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+16:09:59.207 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 18788 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+16:09:59.209 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+16:09:59.930 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+16:09:59.933 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+16:09:59.955 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+16:10:00.340 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+16:10:00.778 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+16:10:01.014 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+16:10:03.528 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+16:10:05.016 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 6.124 seconds (JVM running for 7.344)
+16:10:08.806 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+16:10:08.811 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+17:42:35.288 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+17:42:35.295 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:42:35.296 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:42:35.420 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+17:42:35.586 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+17:42:35.990 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 45888 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+17:42:35.992 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+17:42:36.817 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:42:36.820 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:42:36.847 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+17:42:37.206 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:42:37.619 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:42:37.815 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:42:39.956 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+17:42:40.878 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 5.25 seconds (JVM running for 6.666)
+17:42:44.876 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+17:42:44.899 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+17:47:17.426 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+17:47:17.432 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+17:47:17.433 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:47:17.553 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+17:47:17.651 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+17:47:17.966 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 43644 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+17:47:17.968 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+17:47:18.627 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:47:18.630 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:47:18.652 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+17:47:18.955 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:47:19.306 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:47:19.477 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:47:21.525 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+17:47:22.391 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 4.707 seconds (JVM running for 5.904)
+17:47:26.545 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+17:47:26.551 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+21:05:40.403 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.wljy.services.wljyTest], using SpringBootContextLoader
+21:05:40.411 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.wljy.services.wljyTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+21:05:40.412 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.wljy.services.wljyTest]: wljyTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:05:40.543 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.wljy.WljyApplication for test class com.wljy.services.wljyTest
+21:05:40.696 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@12f9af83, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19b93fa8, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7e6ef134, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1f010bf0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40db2a24, org.springframework.test.context.event.EventPublishingTestExecutionListener@10cf09e8]
+21:05:41.144 [main] INFO  com.wljy.services.wljyTest - Starting wljyTest using Java 1.8.0_151 on XuChunYang with PID 26428 (started by 19732 in F:\springboot-xcy\springboot-wljy)
+21:05:41.145 [main] INFO  com.wljy.services.wljyTest - No active profile set, falling back to default profiles: default
+21:05:42.163 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+21:05:42.168 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:05:42.208 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+21:05:42.664 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$89d180cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:05:43.188 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+21:05:43.461 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+21:05:45.744 [main] INFO  com.wljy.config.RedisConfig - ³õÊ¼»¯ -> [Redis CacheErrorHandler]
+21:05:46.683 [main] INFO  com.wljy.services.wljyTest - Started wljyTest in 5.937 seconds (JVM running for 7.301)
+21:05:51.024 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+21:05:51.032 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

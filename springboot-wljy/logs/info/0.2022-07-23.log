@@ -1,0 +1,72 @@
+14:08:41.178 [main] INFO  com.wljy.WljyApplication - Starting WljyApplication using Java 1.8.0_151 on XuChunYang with PID 12956 (F:\springboot-xcy\springboot-wljy\target\classes started by Xu in F:\springboot-xcy)
+14:08:41.178 [main] INFO  com.wljy.WljyApplication - No active profile set, falling back to default profiles: default
+14:08:41.788 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+14:08:41.788 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+14:08:41.810 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+14:08:42.058 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$c6cd2043] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+14:08:42.268 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+14:08:42.278 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+14:08:42.278 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+14:08:42.278 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+14:08:42.278 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+14:08:42.278 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+14:08:42.278 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+14:08:42.278 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14:08:42.293 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+14:08:42.418 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+14:08:42.418 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1190 ms
+14:08:42.548 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+14:08:42.648 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+14:08:43.678 [main] INFO  com.wljy.config.RedisConfig - 初始化 -> [Redis CacheErrorHandler]
+14:08:44.068 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+14:08:44.083 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+14:08:44.115 [main] INFO  com.wljy.WljyApplication - Started WljyApplication in 3.435 seconds (JVM running for 5.196)
+14:14:05.559 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+14:14:05.559 [http-nio-8089-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+14:14:05.559 [http-nio-8089-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+15:19:33.762 [main] INFO  com.wljy.WljyApplication - Starting WljyApplication using Java 1.8.0_151 on XuChunYang with PID 3112 (F:\springboot-xcy\springboot-wljy\target\classes started by Xu in F:\springboot-xcy)
+15:19:33.762 [main] INFO  com.wljy.WljyApplication - No active profile set, falling back to default profiles: default
+15:19:34.294 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+15:19:34.294 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:19:34.312 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+15:19:34.482 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$c6cd2043] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:19:34.682 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+15:19:34.692 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+15:19:34.692 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:19:34.692 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+15:19:34.697 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+15:19:34.697 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+15:19:34.697 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+15:19:34.697 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:19:34.701 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+15:19:34.802 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:19:34.802 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1000 ms
+15:19:34.918 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+15:19:35.008 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:19:36.082 [main] INFO  com.wljy.config.RedisConfig - 初始化 -> [Redis CacheErrorHandler]
+15:19:36.362 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+15:19:36.372 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+15:19:36.392 [main] INFO  com.wljy.WljyApplication - Started WljyApplication in 2.987 seconds (JVM running for 4.324)
+15:20:11.648 [main] INFO  com.wljy.WljyApplication - Starting WljyApplication using Java 1.8.0_151 on XuChunYang with PID 12404 (F:\springboot-xcy\springboot-wljy\target\classes started by Xu in F:\springboot-xcy)
+15:20:11.652 [main] INFO  com.wljy.WljyApplication - No active profile set, falling back to default profiles: default
+15:20:12.102 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+15:20:12.102 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+15:20:12.122 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+15:20:12.282 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$c6cd2043] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+15:20:12.462 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+15:20:12.465 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+15:20:12.465 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+15:20:12.465 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+15:20:12.465 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.21] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+15:20:12.465 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+15:20:12.465 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+15:20:12.465 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+15:20:12.474 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+15:20:12.572 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+15:20:12.572 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 875 ms
+15:20:12.683 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+15:20:12.760 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+15:20:13.808 [main] INFO  com.wljy.config.RedisConfig - 初始化 -> [Redis CacheErrorHandler]
+15:20:14.073 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+15:20:14.085 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+15:20:14.102 [main] INFO  com.wljy.WljyApplication - Started WljyApplication in 2.791 seconds (JVM running for 3.879)

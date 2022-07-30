@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springboot-core" />
+        <module name="springboot-common" />
+        <module name="springboot-wljy" />
+      </profile>
+      <profile name="Annotation profile for springboot-xcy" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="D:/Maven/local_repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+          <entry name="D:/Maven/local_repository/org/mapstruct/mapstruct-processor/1.4.2.Final/mapstruct-processor-1.4.2.Final.jar" />
+          <entry name="D:/Maven/local_repository/org/mapstruct/mapstruct/1.4.2.Final/mapstruct-1.4.2.Final.jar" />
+        </processorPath>
+        <module name="springboot-mall" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springboot-common" target="1.8" />
+      <module name="springboot-core" target="1.8" />
+      <module name="springboot-mall" target="1.8" />
+      <module name="springboot-wljy" target="1.8" />
+      <module name="springboot-xcy" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springboot-common" options="-parameters" />
+      <module name="springboot-core" options="-parameters" />
+      <module name="springboot-mall" options="-parameters" />
+      <module name="springboot-wljy" options="-parameters" />
+    </option>
+  </component>
+</project>

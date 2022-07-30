@@ -1,0 +1,59 @@
+21:25:34.153 [main] INFO  com.wljy.WljyApplication - Starting WljyApplication using Java 1.8.0_151 on XuChunYang with PID 34960 (F:\springboot-xcy\springboot-wljy\target\classes started by 19732 in F:\springboot-xcy)
+21:25:34.157 [main] INFO  com.wljy.WljyApplication - No active profile set, falling back to default profiles: default
+21:25:35.018 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+21:25:35.022 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+21:25:35.055 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+21:25:35.467 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$819e7ad7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+21:25:35.817 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+21:25:35.828 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+21:25:35.828 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+21:25:35.829 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+21:25:35.831 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.2.16] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+21:25:35.831 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+21:25:35.831 [main] INFO  o.a.c.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+21:25:35.831 [main] INFO  o.a.c.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+21:25:36.921 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+21:25:37.139 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+21:25:37.139 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2915 ms
+21:25:37.730 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+21:25:37.895 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+21:25:40.166 [main] INFO  com.wljy.config.RedisConfig - 初始化 -> [Redis CacheErrorHandler]
+21:25:40.920 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+21:25:40.941 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+21:25:40.979 [main] INFO  com.wljy.WljyApplication - Started WljyApplication in 7.61 seconds (JVM running for 13.35)
+21:47:27.321 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+21:47:27.321 [http-nio-8089-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+21:47:27.322 [http-nio-8089-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+21:47:48.028 [http-nio-8089-exec-3] INFO  c.wljy.config.LogHandlerInterceptor - IP:127.0.0.1
+21:47:48.028 [http-nio-8089-exec-3] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址:/api/wljy/getValuekey
+21:47:48.036 [http-nio-8089-exec-3] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址参数:{"k":["226053422100039"]}
+21:48:44.444 [http-nio-8089-exec-4] INFO  c.wljy.config.LogHandlerInterceptor - IP:127.0.0.1
+21:48:44.444 [http-nio-8089-exec-4] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址:/api/wljy/getValueList
+21:48:44.444 [http-nio-8089-exec-4] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址参数:{"keya":[""]}
+21:48:49.210 [http-nio-8089-exec-5] INFO  c.wljy.config.LogHandlerInterceptor - IP:127.0.0.1
+21:48:49.210 [http-nio-8089-exec-5] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址:/api/wljy/getValuekey
+21:48:49.210 [http-nio-8089-exec-5] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址参数:{"k":["226053422100039"]}
+21:48:51.116 [http-nio-8089-exec-6] INFO  c.wljy.config.LogHandlerInterceptor - IP:127.0.0.1
+21:48:51.116 [http-nio-8089-exec-6] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址:/api/wljy/getValuekey
+21:48:51.116 [http-nio-8089-exec-6] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址参数:{"k":["226053422100039"]}
+21:48:53.907 [http-nio-8089-exec-7] INFO  c.wljy.config.LogHandlerInterceptor - IP:127.0.0.1
+21:48:53.907 [http-nio-8089-exec-7] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址:/api/wljy/getValueList
+21:48:53.907 [http-nio-8089-exec-7] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址参数:{"keya":["226053422100039_1655040427"]}
+21:48:55.321 [http-nio-8089-exec-8] INFO  c.wljy.config.LogHandlerInterceptor - IP:127.0.0.1
+21:48:55.321 [http-nio-8089-exec-8] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址:/api/wljy/getValueList
+21:48:55.321 [http-nio-8089-exec-8] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址参数:{"keya":["226053422100039_1655040427"]}
+21:48:58.718 [http-nio-8089-exec-9] INFO  c.wljy.config.LogHandlerInterceptor - IP:127.0.0.1
+21:48:58.719 [http-nio-8089-exec-9] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址:/api/wljy/getValueList
+21:48:58.719 [http-nio-8089-exec-9] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址参数:{"keya":["226053422100039_1655040426"]}
+21:49:03.020 [http-nio-8089-exec-10] INFO  c.wljy.config.LogHandlerInterceptor - IP:127.0.0.1
+21:49:03.020 [http-nio-8089-exec-10] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址:/api/wljy/getValueList
+21:49:03.020 [http-nio-8089-exec-10] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址参数:{"keya":["226053422100039_1655040425"]}
+21:51:24.928 [http-nio-8089-exec-1] INFO  c.wljy.config.LogHandlerInterceptor - IP:127.0.0.1
+21:51:24.928 [http-nio-8089-exec-1] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址:/api/wljy/getValuekey
+21:51:24.928 [http-nio-8089-exec-1] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址参数:{"k":["226053422100039"]}
+21:51:33.096 [http-nio-8089-exec-2] INFO  c.wljy.config.LogHandlerInterceptor - IP:127.0.0.1
+21:51:33.096 [http-nio-8089-exec-2] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址:/api/wljy/getValuekey
+21:51:33.096 [http-nio-8089-exec-2] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址参数:{"k":["226053422100039"]}
+21:51:41.207 [http-nio-8089-exec-3] INFO  c.wljy.config.LogHandlerInterceptor - IP:127.0.0.1
+21:51:41.208 [http-nio-8089-exec-3] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址:/api/wljy/getValuekey
+21:51:41.208 [http-nio-8089-exec-3] INFO  c.wljy.config.LogHandlerInterceptor - 请求地址参数:{"k":["226053422100039"]}

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.springbootmall.mapper.CovMapper">
+    <resultMap id="BaseResultMap" type="com.springbootmall.pojo.dto.Cov">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="province" jdbcType="VARCHAR" property="province"/>
+        <result column="confirm_add" jdbcType="DECIMAL" property="confirmAdd"/>
+        <result column="confirm" jdbcType="DECIMAL" property="confirm"/>
+        <result column="heal" jdbcType="DECIMAL" property="heal"/>
+        <result column="dead" jdbcType="DECIMAL" property="dead"/>
+        <result column="newDiagnose" jdbcType="DECIMAL" property="newdiagnose"/>
+        <result column="asymptomatic" jdbcType="DECIMAL" property="asymptomatic"/>
+        <result column="asymptomatic_add" jdbcType="DECIMAL" property="asymptomaticAdd"/>
+        <result column="create_by" jdbcType="VARCHAR" property="createBy"/>
+        <result column="update_by" jdbcType="VARCHAR" property="updateBy"/>
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime"/>
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime"/>
+        <result column="date" jdbcType="TIMESTAMP" property="date"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    id, province, confirm_add, confirm, heal, dead, newDiagnose, asymptomatic, asymptomatic_add,
+    create_by, update_by, create_time, update_time, `date`
+  </sql>
+    <select id="selectAll" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from cov
+    </select>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from cov
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from cov
+    where id =
+    #{id,jdbcType=BIGINT}
+  </delete>
+    <delete id="deleteList" parameterType="java.util.Set">
+        delete from cov
+        where id in
+        <foreach collection="ids" separator="," item="item" index="index" open="(" close=")">
+            #{item,jdbcType=BIGINT}
+        </foreach>
+    </delete>
+
+    <insert id="insert" parameterType="com.springbootmall.pojo.dto.Cov"
+            useGeneratedKeys="true">
+    insert into cov (province, confirm_add, confirm,
+      heal, dead, newDiagnose,
+      asymptomatic, asymptomatic_add, create_by,
+      update_by, create_time, update_time,
+      `date`)
+    values (#{province,jdbcType=VARCHAR}, #{confirmAdd,jdbcType=BIGINT}, #{confirm,jdbcType=BIGINT},
+      #{heal,jdbcType=BIGINT}, #{dead,jdbcType=BIGINT}, #{newdiagnose,jdbcType=BIGINT},
+      #{asymptomatic,jdbcType=BIGINT}, #{asymptomaticAdd,jdbcType=BIGINT}, #{createBy,jdbcType=VARCHAR},
+      #{updateBy,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP},
+      #{date,jdbcType=TIMESTAMP})
+  </insert>
+    <insert id="insertList" parameterType="com.springbootmall.pojo.dto.Cov"
+            useGeneratedKeys="true">
+        insert into cov (province, confirm_add, confirm,
+        heal, dead, newDiagnose,
+        asymptomatic, asymptomatic_add, create_by,
+        update_by, create_time, update_time,
+        `date`) values
+        <foreach collection="list" separator="," item="item" index="index">
+            (#{item.province,jdbcType=VARCHAR}, #{item.confirmAdd,jdbcType=BIGINT}, #{item.confirm,jdbcType=BIGINT},
+            #{item.heal,jdbcType=BIGINT}, #{item.dead,jdbcType=BIGINT}, #{item.newdiagnose,jdbcType=BIGINT},
+            #{item.asymptomatic,jdbcType=BIGINT}, #{item.asymptomaticAdd,jdbcType=BIGINT},
+            #{item.createBy,jdbcType=VARCHAR},
+            #{item.updateBy,jdbcType=VARCHAR}, now(), now(),
+            #{item.date,jdbcType=TIMESTAMP})
+        </foreach>
+    </insert>
+    <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.springbootmall.pojo.dto.Cov"
+            useGeneratedKeys="true">
+        insert into cov
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="province != null">
+                province,
+            </if>
+            <if test="confirmAdd != null">
+                confirm_add,
+            </if>
+            <if test="confirm != null">
+                confirm,
+            </if>
+            <if test="heal != null">
+                heal,
+            </if>
+            <if test="dead != null">
+                dead,
+            </if>
+            <if test="newdiagnose != null">
+                newDiagnose,
+            </if>
+            <if test="asymptomatic != null">
+                asymptomatic,
+            </if>
+            <if test="asymptomaticAdd != null">
+                asymptomatic_add,
+            </if>
+            <if test="createBy != null">
+                create_by,
+            </if>
+            <if test="updateBy != null">
+                update_by,
+            </if>
+            <if test="createTime != null">
+                create_time,
+            </if>
+            <if test="updateTime != null">
+                update_time,
+            </if>
+            <if test="date != null">
+                `date`,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="province != null">
+                #{province,jdbcType=VARCHAR},
+            </if>
+            <if test="confirmAdd != null">
+                #{confirmAdd,jdbcType=BIGINT},
+            </if>
+            <if test="confirm != null">
+                #{confirm,jdbcType=BIGINT},
+            </if>
+            <if test="heal != null">
+                #{heal,jdbcType=BIGINT},
+            </if>
+            <if test="dead != null">
+                #{dead,jdbcType=BIGINT},
+            </if>
+            <if test="newdiagnose != null">
+                #{newdiagnose,jdbcType=BIGINT},
+            </if>
+            <if test="asymptomatic != null">
+                #{asymptomatic,jdbcType=BIGINT},
+            </if>
+            <if test="asymptomaticAdd != null">
+                #{asymptomaticAdd,jdbcType=BIGINT},
+            </if>
+            <if test="createBy != null">
+                #{createBy,jdbcType=VARCHAR},
+            </if>
+            <if test="updateBy != null">
+                #{updateBy,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null">
+                #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="date != null">
+                #{date,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.springbootmall.pojo.dto.Cov">
+        update cov
+        <set>
+            <if test="province != null">
+                province = #{province,jdbcType=VARCHAR},
+            </if>
+            <if test="confirmAdd != null">
+                confirm_add = #{confirmAdd,jdbcType=BIGINT},
+            </if>
+            <if test="confirm != null">
+                confirm = #{confirm,jdbcType=BIGINT},
+            </if>
+            <if test="heal != null">
+                heal = #{heal,jdbcType=BIGINT},
+            </if>
+            <if test="dead != null">
+                dead = #{dead,jdbcType=BIGINT},
+            </if>
+            <if test="newdiagnose != null">
+                newDiagnose = #{newdiagnose,jdbcType=BIGINT},
+            </if>
+            <if test="asymptomatic != null">
+                asymptomatic = #{asymptomatic,jdbcType=BIGINT},
+            </if>
+            <if test="asymptomaticAdd != null">
+                asymptomatic_add = #{asymptomaticAdd,jdbcType=BIGINT},
+            </if>
+            <if test="createBy != null">
+                create_by = #{createBy,jdbcType=VARCHAR},
+            </if>
+            <if test="updateBy != null">
+                update_by = #{updateBy,jdbcType=VARCHAR},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateTime != null">
+                update_time = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="date != null">
+                `date` = #{date,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.springbootmall.pojo.dto.Cov">
+    update cov
+    set province = #{province,jdbcType=VARCHAR},
+      confirm_add = #{confirmAdd,jdbcType=BIGINT},
+      confirm = #{confirm,jdbcType=BIGINT},
+      heal = #{heal,jdbcType=BIGINT},
+      dead = #{dead,jdbcType=BIGINT},
+      newDiagnose = #{newdiagnose,jdbcType=BIGINT},
+      asymptomatic = #{asymptomatic,jdbcType=BIGINT},
+      asymptomatic_add = #{asymptomaticAdd,jdbcType=BIGINT},
+      create_by = #{createBy,jdbcType=VARCHAR},
+      update_by = #{updateBy,jdbcType=VARCHAR},
+      create_time = #{createTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      `date` = #{date,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>
