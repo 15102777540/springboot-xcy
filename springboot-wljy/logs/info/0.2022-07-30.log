@@ -16,3 +16,100 @@
 15:37:41.945 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
 15:37:41.957 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
 15:37:41.977 [main] INFO  com.wljy.WljyApplication - Started WljyApplication in 3.293 seconds (JVM running for 5.031)
+17:34:25.272 [main] INFO  com.wljy.WljyApplication - Starting WljyApplication using Java 1.8.0_151 on XuChunYang with PID 17284 (F:\springboot-xcy\springboot-wljy\target\classes started by Xu in F:\springboot-xcy)
+17:34:25.273 [main] INFO  com.wljy.WljyApplication - No active profile set, falling back to default profiles: default
+17:34:25.707 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:34:25.709 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:34:25.724 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+17:34:25.901 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$c6cd2043] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:34:26.094 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+17:34:26.102 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+17:34:26.102 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:34:26.103 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:34:26.227 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:34:26.227 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 918 ms
+17:34:26.382 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:34:26.471 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:34:27.707 [main] INFO  com.wljy.config.RedisConfig - 初始化 -> [Redis CacheErrorHandler]
+17:34:27.996 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+17:34:28.009 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+17:34:28.033 [main] INFO  com.wljy.WljyApplication - Started WljyApplication in 3.083 seconds (JVM running for 4.511)
+17:36:01.816 [http-nio-8089-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:36:01.816 [http-nio-8089-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:36:01.817 [http-nio-8089-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:36:22.495 [main] INFO  com.wljy.WljyApplication - Starting WljyApplication using Java 1.8.0_151 on XuChunYang with PID 7656 (F:\springboot-xcy\springboot-wljy\target\classes started by Xu in F:\springboot-xcy)
+17:36:22.498 [main] INFO  com.wljy.WljyApplication - No active profile set, falling back to default profiles: default
+17:36:23.184 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:36:23.186 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:36:23.209 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+17:36:23.483 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$40434705] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:36:23.731 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+17:36:23.741 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+17:36:23.741 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:36:23.741 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:36:23.853 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:36:23.853 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1309 ms
+17:36:24.097 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:36:24.187 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:36:25.730 [main] INFO  com.wljy.config.RedisConfig - 初始化 -> [Redis CacheErrorHandler]
+17:36:26.126 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+17:36:26.147 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+17:36:26.179 [main] INFO  com.wljy.WljyApplication - Started WljyApplication in 4.1 seconds (JVM running for 6.479)
+17:36:39.872 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+17:36:39.875 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+17:36:43.697 [main] INFO  com.wljy.WljyApplication - Starting WljyApplication using Java 1.8.0_151 on XuChunYang with PID 11488 (F:\springboot-xcy\springboot-wljy\target\classes started by Xu in F:\springboot-xcy)
+17:36:43.699 [main] INFO  com.wljy.WljyApplication - No active profile set, falling back to default profiles: default
+17:36:44.269 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:36:44.271 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:36:44.289 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+17:36:44.522 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$ddd05a2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:36:44.754 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+17:36:44.761 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+17:36:44.762 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:36:44.762 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:36:44.866 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:36:44.866 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1128 ms
+17:36:45.016 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:36:45.102 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:36:46.510 [main] INFO  com.wljy.config.RedisConfig - 初始化 -> [Redis CacheErrorHandler]
+17:36:46.889 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+17:36:46.906 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+17:36:46.931 [main] INFO  com.wljy.WljyApplication - Started WljyApplication in 3.674 seconds (JVM running for 5.369)
+17:38:46.828 [main] INFO  com.wljy.WljyApplication - Starting WljyApplication using Java 1.8.0_151 on XuChunYang with PID 15048 (F:\springboot-xcy\springboot-wljy\target\classes started by Xu in F:\springboot-xcy)
+17:38:46.830 [main] INFO  com.wljy.WljyApplication - No active profile set, falling back to default profiles: default
+17:38:47.609 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:38:47.612 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:38:47.640 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+17:38:47.891 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$16b14f77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:38:48.196 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+17:38:48.206 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+17:38:48.207 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:38:48.207 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:38:48.328 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:38:48.329 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1453 ms
+17:38:48.500 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:38:48.603 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:38:50.287 [main] INFO  com.wljy.config.RedisConfig - 初始化 -> [Redis CacheErrorHandler]
+17:38:50.692 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+17:38:50.707 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+17:38:50.730 [main] INFO  com.wljy.WljyApplication - Started WljyApplication in 4.388 seconds (JVM running for 6.207)
+17:39:57.029 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+17:39:57.030 [SpringApplicationShutdownHook] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+17:40:04.698 [main] INFO  com.wljy.WljyApplication - Starting WljyApplication using Java 1.8.0_151 on XuChunYang with PID 3408 (F:\springboot-xcy\springboot-wljy\target\classes started by Xu in F:\springboot-xcy)
+17:40:04.700 [main] INFO  com.wljy.WljyApplication - No active profile set, falling back to default profiles: default
+17:40:05.342 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+17:40:05.344 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:40:05.363 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+17:40:05.619 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [com.wljy.config.RedisConfig$$EnhancerBySpringCGLIB$$d1b497c3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+17:40:06.428 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8089 (http)
+17:40:06.444 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8089"]
+17:40:06.445 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:40:06.445 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.54]
+17:40:06.544 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:40:06.544 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1793 ms
+17:40:06.672 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+17:40:06.781 [main] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+17:40:08.196 [main] INFO  com.wljy.config.RedisConfig - 初始化 -> [Redis CacheErrorHandler]
+17:40:08.481 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8089"]
+17:40:08.498 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8089 (http) with context path ''
+17:40:08.516 [main] INFO  com.wljy.WljyApplication - Started WljyApplication in 4.172 seconds (JVM running for 4.918)
