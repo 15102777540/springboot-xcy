@@ -8,55 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fde04b8a-7cc4-439f-96f3-77e3047c2fb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_70.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_spring_spring_context_support_1_0_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_sgroschupf_zkclient_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_27_0_1_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_1_65_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_2_0_44_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_65_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_65_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_5_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_5_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_5_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_2_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_spring_boot_autoconfigure_2_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_spring_boot_autoconfigure_compatible_2_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_dubbo_dubbo_spring_boot_starter_2_7_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_12_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_2_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/consumer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/dubbo/consumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/dubbo/services/TicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/com/dubbo/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer/src/test/java/com/dubbo/UserServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/provider.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/dubbo/providerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/dubbo/services/TicketService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/java/com/dubbo/services/TicketServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-wljy/target/springboot-wljy-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wljy/target/springboot-wljy-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-wljy/target/springboot-wljy-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-wljy/target/springboot-wljy-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/dubbo/consumerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/consumerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/test/java/com/dubbo/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/test/java/com/UserServiceTest.java" afterDir="false" />
     </list>
     <list id="93e00ed4-012b-4907-936a-b9b13e164951" name="上传配置" comment="1" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,8 +38,8 @@
         <option value="package-info" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -156,7 +110,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="E:/虚拟机安装包/dubbo-admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/consumer/src/main/java/com/consumer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -184,6 +138,7 @@
       <recent name="F:\springboot-xcy\springboot-mall\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
       <recent name="com.springbootmall" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -191,11 +146,11 @@
       <recent name="com.springbootmall.javaBeanMapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\springboot-xcy\consumer\src\main\java\com\consumer" />
       <recent name="F:\springboot-xcy\consumer\src\main\resources" />
       <recent name="F:\springboot-xcy\springboot-wljy\src\main\resources\html\js" />
       <recent name="F:\springboot-xcy\springboot-common\src\main\resources" />
       <recent name="F:\springboot-xcy\springboot-core\src\main\resources" />
-      <recent name="F:\springboot-xcy\springboot-common\src\main\java" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -206,22 +161,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.UserServiceTest.buyTicket">
-    <configuration name="UserServiceTest.Testss" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-mall" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.springbootmall.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.springbootmall.service" />
-      <option name="MAIN_CLASS_NAME" value="com.springbootmall.service.UserServiceTest" />
-      <option name="METHOD_NAME" value="Testss" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserServiceTest.WeekDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-mall" />
       <extension name="coverage">
@@ -242,12 +181,12 @@
       <module name="consumer" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dubbo.*" />
+          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.dubbo" />
-      <option name="MAIN_CLASS_NAME" value="com.dubbo.UserServiceTest" />
+      <option name="PACKAGE_NAME" value="com" />
+      <option name="MAIN_CLASS_NAME" value="com.UserServiceTest" />
       <option name="METHOD_NAME" value="buyTicket" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -288,7 +227,7 @@
       <module name="provider" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dubbo.*" />
+          <option name="PATTERN" value="com.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,13 +237,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserServiceTest.Testss" />
       <item itemvalue="JUnit.UserServiceTest.WeekDate" />
+      <item itemvalue="JUnit.UserServiceTest.buyTicket" />
       <item itemvalue="Spring Boot.MallApplication" />
       <item itemvalue="Spring Boot.CoreApplication" />
       <item itemvalue="Spring Boot.WljyApplication" />
       <item itemvalue="Spring Boot.providerApplication" />
-      <item itemvalue="JUnit.UserServiceTest.buyTicket" />
     </list>
     <recent_temporary>
       <list>
@@ -312,7 +250,6 @@
         <item itemvalue="Spring Boot.providerApplication" />
         <item itemvalue="Spring Boot.WljyApplication" />
         <item itemvalue="JUnit.UserServiceTest.WeekDate" />
-        <item itemvalue="JUnit.UserServiceTest.Testss" />
       </list>
     </recent_temporary>
   </component>
@@ -473,7 +410,7 @@
       <workItem from="1659746632403" duration="3862000" />
       <workItem from="1659777539431" duration="1646000" />
       <workItem from="1659840293036" duration="170000" />
-      <workItem from="1662277242999" duration="15311000" />
+      <workItem from="1662277242999" duration="16624000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1635919414177</created>
@@ -713,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659748570684</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="zookeeper+dubbo">
+      <created>1662296621102</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1662296621103</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -787,7 +731,6 @@
       <path value="$PROJECT_DIR$/springboot-xcy" />
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="111" />
     <MESSAGE value="15:50" />
     <MESSAGE value="18.23" />
     <MESSAGE value="完整的spring Security" />
@@ -812,7 +755,8 @@
     <MESSAGE value="据国家网络与信息安全信息通报中心监测发现，阿里巴巴公司开源Java开发组件fastjson存在反序列化漏洞。fastjson被众多java软件作为组件集成，广泛存在于java应用的服务端代码中。攻击者可利用上述漏洞实施任意文件写入、服务端请求伪造等攻击行为，造成服务器权限被窃取、敏感信息泄漏等严重影响。此次事件影响fastjson 1.2.80及之前所有版本。目前，阿里巴巴公司已发布fastjson最新版本1.2.83以修复该漏洞，组件升级地址为：https://github.com/alibaba/fastjson/releases/tag/1.2.83。" />
     <MESSAGE value="抓包升级版" />
     <MESSAGE value="脚本更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="脚本更新" />
+    <MESSAGE value="zookeeper+dubbo" />
+    <option name="LAST_COMMIT_MESSAGE" value="zookeeper+dubbo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="350" y="72" key="#All_in_consumer" timestamp="1662279277041">
@@ -835,10 +779,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="350" y="72" key="#com.consumer_in_consumer/0.0.1536.816@0.0.1536.816" timestamp="1662279260566" />
-    <state x="342" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662280559464">
+    <state x="342" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1662297763724">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="342" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1662280559464" />
+    <state x="342" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1662297763724" />
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1655364457453" />
     <state x="548" y="119" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1659777562094">
       <screen x="0" y="0" width="1536" height="816" />
@@ -860,14 +804,22 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="614" y="298" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.816@0.0.1536.816" timestamp="1659172494279" />
+    <state x="528" y="275" width="479" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1662297727139">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="528" y="275" width="479" height="271" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816@0.0.1536.816" timestamp="1662297727139" />
+    <state x="407" y="0" width="735" height="816" key="#consumerApplication" timestamp="1662297528977">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="407" y="0" width="735" height="816" key="#consumerApplication/0.0.1536.816@0.0.1536.816" timestamp="1662297528977" />
     <state x="524" y="128" width="488" height="575" key="#xdebugger.evaluate" timestamp="1654934275590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="128" width="488" height="575" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1654934275590" />
-    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1659748569442">
+    <state x="246" y="0" key="CommitChangelistDialog2" timestamp="1662296615233">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1659748569442" />
+    <state x="246" y="0" key="CommitChangelistDialog2/0.0.1536.816@0.0.1536.816" timestamp="1662296615233" />
     <state x="0" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1654958405437" />
     <state width="597" height="438" key="DebuggerActiveHint" timestamp="1654933977053">
       <screen x="0" y="0" width="1536" height="824" />
@@ -885,45 +837,45 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="428" y="114" key="Github.UntrackedFilesDialog/0.0.1536.816@0.0.1536.816" timestamp="1659172645483" />
-    <state width="1493" height="358" key="GridCell.Tab.0.bottom" timestamp="1662296591277">
+    <state width="1493" height="446" key="GridCell.Tab.0.bottom" timestamp="1662297775886">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1662296591277" />
+    <state width="1493" height="446" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1662297775886" />
     <state width="1493" height="406" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1657631445253" />
-    <state width="1493" height="358" key="GridCell.Tab.0.center" timestamp="1662296591277">
+    <state width="1493" height="446" key="GridCell.Tab.0.center" timestamp="1662297775886">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1662296591277" />
+    <state width="1493" height="446" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1662297775886" />
     <state width="1493" height="406" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1657631445252" />
-    <state width="1493" height="358" key="GridCell.Tab.0.left" timestamp="1662296591277">
+    <state width="1493" height="446" key="GridCell.Tab.0.left" timestamp="1662297775886">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1662296591277" />
+    <state width="1493" height="446" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1662297775886" />
     <state width="1493" height="406" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1657631445252" />
-    <state width="1493" height="358" key="GridCell.Tab.0.right" timestamp="1662296591277">
+    <state width="1493" height="446" key="GridCell.Tab.0.right" timestamp="1662297775886">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1662296591277" />
+    <state width="1493" height="446" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1662297775886" />
     <state width="1493" height="406" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1657631445253" />
-    <state width="1493" height="358" key="GridCell.Tab.1.bottom" timestamp="1662296591277">
+    <state width="1493" height="247" key="GridCell.Tab.1.bottom" timestamp="1662297134645">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1662296591277" />
+    <state width="1493" height="247" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1662297134645" />
     <state width="1493" height="406" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1657631445253" />
-    <state width="1493" height="358" key="GridCell.Tab.1.center" timestamp="1662296591277">
+    <state width="1493" height="247" key="GridCell.Tab.1.center" timestamp="1662297134645">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1662296591277" />
+    <state width="1493" height="247" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1662297134645" />
     <state width="1493" height="406" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1657631445253" />
-    <state width="1493" height="358" key="GridCell.Tab.1.left" timestamp="1662296591277">
+    <state width="1493" height="247" key="GridCell.Tab.1.left" timestamp="1662297134645">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1662296591277" />
+    <state width="1493" height="247" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1662297134645" />
     <state width="1493" height="406" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1657631445253" />
-    <state width="1493" height="358" key="GridCell.Tab.1.right" timestamp="1662296591277">
+    <state width="1493" height="247" key="GridCell.Tab.1.right" timestamp="1662297134645">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1662296591277" />
+    <state width="1493" height="247" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1662297134645" />
     <state width="1493" height="406" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1657631445253" />
     <state width="1493" height="258" key="GridCell.Tab.2.bottom" timestamp="1659174003569">
       <screen x="0" y="0" width="1536" height="816" />
@@ -953,10 +905,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="159" y="108" key="SettingsEditor/0.0.1536.816@0.0.1536.816" timestamp="1659192299146" />
-    <state x="361" y="147" key="Vcs.Push.Dialog.v2" timestamp="1659748577134">
+    <state x="361" y="147" key="Vcs.Push.Dialog.v2" timestamp="1662296629593">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="361" y="147" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1659748577134" />
+    <state x="361" y="147" key="Vcs.Push.Dialog.v2/0.0.1536.816@0.0.1536.816" timestamp="1662296629593" />
     <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1654958463105" />
     <state width="775" height="419" key="XDebugger.FullValuePopup" timestamp="1654050280623">
       <screen x="0" y="0" width="1536" height="824" />
@@ -971,10 +923,10 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="564" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.816@0.0.1536.816" timestamp="1659173243435" />
-    <state x="540" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1662279338854">
+    <state x="540" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1662297238944">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="540" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.816@0.0.1536.816" timestamp="1662279338854" />
+    <state x="540" y="142" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.816@0.0.1536.816" timestamp="1662297238944" />
     <state x="447" y="15" width="657" height="801" key="find.popup" timestamp="1662281355360">
       <screen x="0" y="0" width="1536" height="816" />
     </state>

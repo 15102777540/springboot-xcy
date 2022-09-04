@@ -1,4 +1,4 @@
-package com.dubbo;
+package com;
 
 import com.dubbo.services.TicketService;
 import com.dubbo.services.UserService;
