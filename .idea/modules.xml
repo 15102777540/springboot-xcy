@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider/provider.iml" filepath="$PROJECT_DIR$/provider/provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-common/springboot-common.iml" filepath="$PROJECT_DIR$/springboot-common/springboot-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-core/springboot-core.iml" filepath="$PROJECT_DIR$/springboot-core/springboot-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mall/springboot-mall.iml" filepath="$PROJECT_DIR$/springboot-mall/springboot-mall.iml" />

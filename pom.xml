@@ -8,6 +8,8 @@
         <module>springboot-mall</module>
         <module>springboot-wljy</module>
         <module>springboot-common</module>
+        <module>provider</module>
+        <module>consumer</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
