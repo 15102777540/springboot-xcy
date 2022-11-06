@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="provider" />
-        <module name="consumer" />
         <module name="springboot-core" />
+        <module name="report" />
         <module name="springboot-common" />
         <module name="springboot-wljy" />
+        <module name="provider" />
+        <module name="consumer" />
       </profile>
       <profile name="Annotation profile for springboot-xcy" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
@@ -28,6 +29,7 @@
     <bytecodeTargetLevel>
       <module name="consumer" target="1.8" />
       <module name="provider" target="1.8" />
+      <module name="report" target="1.8" />
       <module name="springboot-common" target="1.8" />
       <module name="springboot-core" target="1.8" />
       <module name="springboot-mall" target="1.8" />
@@ -39,6 +41,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer" options="-parameters" />
       <module name="provider" options="-parameters" />
+      <module name="report" options="-parameters" />
       <module name="springboot-common" options="-parameters" />
       <module name="springboot-core" options="-parameters" />
       <module name="springboot-mall" options="-parameters" />

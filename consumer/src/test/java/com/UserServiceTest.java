@@ -1,7 +1,9 @@
 package com;
 
+import com.api.OrderService;
 import com.dubbo.services.TicketService;
 import com.dubbo.services.UserService;
+import com.order.OrderServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,10 +14,19 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 class UserServiceTest {
 
+    /*@Autowired
+    UserService userService;*/
+
     @Autowired
-    UserService userService;
+    OrderServiceImpl orderService;
+
     @Test
     void buyTicket() {
-        userService.buyTicket();
+        //userService.buyTicket();
+    }
+
+    @Test
+    void buyTickets() {
+        orderService.buyTicket();
     }
 }
