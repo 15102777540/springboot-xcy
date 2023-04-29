@@ -92,7 +92,11 @@ public class PaperController {
     @ResponseBody
     public List<Question> getInfo(@Param("sno") String sno) throws Exception {
         List<Question> list = new ArrayList<>();
-        list = paperService.findQueContent(sno);
+        try {
+            list = paperService.findQueContent(sno);
+        }catch (Exception ex){
+            ex.printStackTrace();
+        }
         return list;
     }
 
