@@ -6,7 +6,7 @@ web.ajax(basePath + '/exam/paperInstance/showExerciseQuestions.ajax', {
     });*/
     $.ajax({
         method:"post",
-        url:"http://140.238.154.141:8088/api/wljy/addQuesapi",
+        url:"http://127.0.0.1:8088/api/wljy/addQuesapi",
         contentType: 'application/json;charset=UTF-8',
         async:true,
         data:JSON.stringify(r),

@@ -15,7 +15,7 @@ if (confi) {
         showdata.forEach((a, index) => {
             (function (params) {
                 setTimeout(() => {
-                    web.ajax('http://140.238.154.141:8088/api/wljy/getInfo', {sno: a}, true, function (r) {
+                    web.ajax('http://127.0.0.1:8088/api/wljy/getInfo', {sno: a}, true, function (r) {
                         r.forEach(x => {
                             let arrc = x.questionAnswercontent.split(":");
                             var questionAnswercontent = "";
